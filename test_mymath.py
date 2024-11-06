@@ -1,16 +1,16 @@
 import mymath
 
 def test_mymath_add():
-    assert mymath.add_three(1,2, 3) == 7
+    assert mymath.add_three(1,2, 3) == 6
 
 def test_mymath_sub():
-    assert mymath.subtract_three(8, 2, 1) == 6
+    assert mymath.subtract_three(8, 2, 1) == 5
 
 def test_mymath_multiply():
-    assert mymath.multiply_three(8, 2, 1) == 17
+    assert mymath.multiply_three(8, 2, 1) == 16
 
 def test_mymath_divide():
-    assert mymath.divide_three(8, 2, 1) == 5
+    assert mymath.divide_three(8, 2, 1) == 4
 
 def test_mymath_power():
-    assert mymath.power(2, 3) == 9
+    assert mymath.power(2, 3) == 8
